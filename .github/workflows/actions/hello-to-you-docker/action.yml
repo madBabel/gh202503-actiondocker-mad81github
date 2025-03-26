@@ -1,2 +1,10 @@
 name: Action Yaml
 description: 'hello to you'
+inputs: 
+    name:
+        description: 'Name'
+        required: true
+        default: 'World'
+runs:
+  using: docker
+  image: Dockerfile
