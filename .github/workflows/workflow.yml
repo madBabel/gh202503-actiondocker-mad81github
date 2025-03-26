@@ -12,7 +12,8 @@ jobs:
               uses: actions/checkout@v4
 
             - name: tree
-              run: ls -l
+              run: tree
+              
             - name: HelloToYou
               id: HelloToYou
               uses: ./.github/actions/hello-to-you-docker   
