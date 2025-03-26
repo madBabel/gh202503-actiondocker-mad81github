@@ -1,5 +1,5 @@
 name:  Custom Action Docker
-on: 
+on:  push
    
 run-name: Custom Actions - Docker
 jobs:
